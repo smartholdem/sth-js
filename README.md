@@ -1,7 +1,6 @@
-# sth-js
-SmartHoldem JS Library
+# SmartHoldem JS Library
 
-# Tests lib
+## Tests lib
 
 > npm run test
 
