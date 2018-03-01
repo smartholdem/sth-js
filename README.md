@@ -1,7 +1,7 @@
 # sth-js
 SmartHoldem JS Library
 
-# Tests
+# Tests lib
 
 > npm run test
 
@@ -9,7 +9,7 @@ SmartHoldem JS Library
 
 > npm run build:docs
 
-# Build for browser
+# Build lib for browser
 
 > npm run build:browserify
 
