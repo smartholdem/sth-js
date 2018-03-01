@@ -4,11 +4,11 @@
 
 > npm run test
 
-# Build documentation
+## Build documentation
 
 > npm run build:docs
 
-# Build lib for browser
+## Build lib for browser
 
 > npm run build:browserify
 
