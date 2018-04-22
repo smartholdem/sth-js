@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smartholdem/sth-js.git"
+    "url": "git+https://github.com/smartholdem/sth-js.git#dev"
   },
   "author": "SmartHoldem <support@smartholdem.io>",
   "license": "MIT",
