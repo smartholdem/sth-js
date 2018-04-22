@@ -36,14 +36,14 @@ On the client:
 
 On the server:
 
-```
+```js
 var sth = require("sthjs");
 ```
 
 
 ### To generate a public / private key pair from a given passphrase:
 
-```
+```js
 var keyz = sth.crypto.getKeys("pass phrase");
 ```
 
