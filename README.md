@@ -4,12 +4,55 @@
 
 ## Tests lib
 
-> npm run test
+```
+npm test
+```
 
 ## Build documentation
 
-> npm run build:docs
+```
+npm build:docs
+```
 
 ## Build lib for browser
 
-> npm run build:browserify
+```
+npm build:browserify
+```
+
+## Clean browser
+
+```
+npm clean:browserify
+```
+
+## Examples
+
+On the client:
+
+```
+<script src="node_modules/sthjs/bundle.min.js"></script>
+```
+
+On the server:
+
+```
+var sth = require("sthjs");
+```
+
+
+## To generate a public / private key pair from a given passphrase:
+
+```
+var keyz = sth.crypto.getKeys("pass phrase");
+```
+
+response
+
+```json
+{
+publicKey: '022b903c7eae707b38e91be3952b2243910fff080b9d158884264f3c6394bd2a3e',
+privateKey: ''
+}
+```
+
