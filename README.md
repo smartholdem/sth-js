@@ -67,7 +67,7 @@ console.log('priv key:'+keys.d.toBuffer().toString("hex"));
 response
 
 ```shell
-priv key:84d6b9b64dd6a2111e2616544e16e07580d590df9a8d5ce1d9dc5a168a1b1188
+privKey:84d6b9b64dd6a2111e2616544e16e07580d590df9a8d5ce1d9dc5a168a1b1188
 ```
 
 
