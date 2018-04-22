@@ -49,11 +49,10 @@ var keyz = sth.crypto.getKeys("pass phrase");
 
 response
 
-```json
-
-[{
+```shell
+{
 publicKey: '022b903c7eae707b38e91be3952b2243910fff080b9d158884264f3c6394bd2a3e',
 privateKey: ''
-}]
+}
 ```
 
