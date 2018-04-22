@@ -56,3 +56,9 @@ privateKey: ''
 }
 ```
 
+get private key:
+
+```js
+console.log('priv key:'+keys.d.toBuffer().toString("hex"));
+```
+
