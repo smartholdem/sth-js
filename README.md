@@ -47,7 +47,7 @@ var sth = require("sthjs");
 var keyz = sth.crypto.getKeys("pass phrase");
 ```
 
-response
+response keyz
 
 ```shell
 {
