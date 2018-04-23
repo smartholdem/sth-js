@@ -5,7 +5,7 @@
     "node": true
   },
   "extends": [
-    "eslint:recommended",
+    "eslint:recommended"
   ],
   "rules": {
     "func-names": ["error", "never"],
