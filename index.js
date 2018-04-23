@@ -67,4 +67,3 @@ for (var method in libCrypto) {
  * @property {number} type
  * @property {string} [vendorField]
  */
-
