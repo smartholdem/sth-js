@@ -2,6 +2,8 @@
 
 # SmartHoldem JS Library
 
+JavaScript library for sending SmartHoldem transactions from the client or server
+
 ## Tests lib
 
 ```
