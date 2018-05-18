@@ -4,6 +4,12 @@
 
 JavaScript library for sending SmartHoldem transactions from the client or server
 
+## Installation
+
+```shell
+npm install --save sthjs
+```
+
 ## Tests lib
 
 ```
