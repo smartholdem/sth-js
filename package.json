@@ -1,6 +1,6 @@
 {
   "name": "sthjs",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "JavaScript library for sending transactions from the client or server",
   "main": "index.js",
   "engines": {
@@ -23,8 +23,22 @@
     "type": "git",
     "url": "git+https://github.com/smartholdem/sth-js.git"
   },
-  "author": "SmartHoldem <support@smartholdem.io>",
+  "author": {
+    "name": "Smartholdem Developers",
+    "email": "dev@smartholdem.io",
+    "url": "https://github.com/smartholdem"
+  },
+  "contributors": [
+    {
+      "name": "SmartHoldem",
+      "email": "dev@SmartHoldem.io",
+      "url": "https://github.com/SmartHoldem"
+    }
+  ],
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smartholdem/sth-js/issues"
+  },
   "dependencies": {
     "bigi": "^1.4.2",
     "bip66": "^1.1.5",
