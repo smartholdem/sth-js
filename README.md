@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/smartholdem/sth-js.svg?branch=master)](https://travis-ci.org/smartholdem/sth-js)
-
 # SmartHoldem JS Library
 
 JavaScript library for sending SmartHoldem transactions from the client or server
