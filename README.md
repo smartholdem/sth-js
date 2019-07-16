@@ -47,7 +47,7 @@ var sth = require("sthjs");
 ```
 
 
-### To generate a public / private key pair from a given BIP39 Pass Phrase:
+### Generate a public/private key pair from a given BIP39 or Any Pass Phrase:
 
 ```js
 const sth = require ('sthjs')
