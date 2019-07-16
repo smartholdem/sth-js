@@ -47,33 +47,33 @@ var sth = require("sthjs");
 ```
 
 
-### To generate a public / private key pair from a given passphrase:
+### To generate a public / private key pair from a given BIP39 Pass Phrase:
 
 ```js
-var keyz = sth.crypto.getKeys("pass phrase");
-```
+const sth = require ('sthjs')
+const bip39 = require('bip39')
 
-response keyz
+const MNEMONIC = bip39.generateMnemonic(); // muscle scissors verb useless matrix fall dignity luxury head hurdle unaware mistake
+const PUB_KEY = sth.crypto.getKeys(MNEMONIC).publicKey // 029f6aa2c38b8bfc8882ea71008a7a9c204d228fceac2de1299d9f192b33c95cbc
+const ADDRESS = sth.crypto.getAddress(PUB_KEY) // SVjFUHYhN6MKjSdcCmqrKza81WNGrArncr
 
-```shell
-{
-publicKey: '022b903c7eae707b38e91be3952b2243910fff080b9d158884264f3c6394bd2a3e',
-privateKey: ''
-}
-```
+console.log(MNEMONIC) // muscle scissors verb useless matrix fall dignity luxury head hurdle unaware mistake
+console.log(ADDRESS) // SVjFUHYhN6MKjSdcCmqrKza81WNGrArncr
 
 ---
 
-get private key:
+Get Private key:
 
 ```js
 console.log('privKey:'+keys.d.toBuffer().toString("hex"));
 ```
 
-response
+### Send or Receive Tx
 
-```shell
-privKey:84d6b9b64dd6a2111e2616544e16e07580d590df9a8d5ce1d9dc5a168a1b1188
-```
+see helper https://github.com/smartholdem/sthjs-wrapper
+
+
+
+
 
 
